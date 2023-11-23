@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Enzo Oliveira",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -166.2, "left": 12.4, "attrs": {} },
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": -172.8,
+      "left": -119.96,
+      "attrs": {}
+    },
+    { "type": "wokwi-lcd1602", "id": "lcd1", "top": 70.63, "left": 25.6, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -97.3, "left": 9.4, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot2", "top": -164.5, "left": 268.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "pot1:GND", "bb1:1b.h", "", [ "$bb" ] ],
+    [ "pot1:SIG", "bb1:2b.h", "", [ "$bb" ] ],
+    [ "pot1:VCC", "bb1:3b.h", "", [ "$bb" ] ],
+    [ "pot2:GND", "bb1:28t.c", "", [ "$bb" ] ],
+    [ "pot2:SIG", "bb1:29t.c", "", [ "$bb" ] ],
+    [ "pot2:VCC", "bb1:30t.c", "", [ "$bb" ] ]
+  ],
+  "dependencies": {}
+}
