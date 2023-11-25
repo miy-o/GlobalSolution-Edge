@@ -12,8 +12,8 @@ A solução proposta não necessariamente resolve diretamente o problema; ela fo
 4 - Coloque o token gerado no codigo, especificamente na parte onde esta escrito "SEU TOKEN";
 5 - Fim.
 
-https://wokwi.com/projects/382215613033618433
-
+Link do video;
+https://youtu.be/-kb75ScM7y4
 
 Adendo:
 
@@ -24,6 +24,15 @@ Para facilitar, vou deixar o link de um projeto que fiz no Tinkercad da mesma co
 https://www.tinkercad.com/things/bcURgderjdd-sistema-de-monitoramento-de-ps/editel?sharecode=ptbhVf60u3a3rSskcr90rh_AEcCGkPOn7OYX3mHq_Pg
 
 Estou escrevendo isso aqui apenas para deixar claro mesmo. Não consegui entender muito bem como usar esse Wokwi, e o ESP32 é diferente, então não consegui realizar a montagem.
+
+Como nao consegui realizar o trabalho do jeito que foi pedido, resolvi fazer tambem um programa simples que envia dados ao TAGO pelo WOKWI apos um botao ser clicado utilizando ESP32, andei pesquisando e aparentemente para conseguir realizar corretamente a ideia inicial de pressao sanguinea eu precisaria de alguns sensores especificos que nao existem no WOKWI. Segue o link do projeto:
+
+https://wokwi.com/projects/382330369240129537
+
+
+
+
+
 
 
 
